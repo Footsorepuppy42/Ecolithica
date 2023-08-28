@@ -157,7 +157,7 @@
           "src/main/resources/data/ecolithica/worldgen/configured_feature/obsadionrock.json"
         ]
       },
-      "path": "~/Nether/biomes/fetures"
+      "path": "~/Nether/biomes/features"
     }
   ],
   "variable_elements": [],
@@ -233,7 +233,7 @@
                 "children": []
               },
               {
-                "name": "fetures",
+                "name": "features",
                 "children": []
               }
             ]
