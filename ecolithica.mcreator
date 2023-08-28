@@ -9,8 +9,8 @@
       "registry_name": "lumibloom",
       "metadata": {
         "files": [
-          "src/main/resources/assets/ecolithica/models/block/lumibloom.json",
           "src/main/resources/assets/ecolithica/models/item/lumibloom.json",
+          "src/main/resources/assets/ecolithica/models/block/lumibloom.json",
           "src/main/resources/assets/ecolithica/blockstates/lumibloom.json",
           "src/main/java/net/mcreator/ecolithica/block/LumibloomBlock.java"
         ]
@@ -26,10 +26,10 @@
       "registry_name": "frostpetal",
       "metadata": {
         "files": [
-          "src/main/resources/assets/ecolithica/models/block/frostpetal.json",
+          "src/main/java/net/mcreator/ecolithica/block/FrostpetalBlock.java",
           "src/main/resources/assets/ecolithica/blockstates/frostpetal.json",
-          "src/main/resources/assets/ecolithica/models/item/frostpetal.json",
-          "src/main/java/net/mcreator/ecolithica/block/FrostpetalBlock.java"
+          "src/main/resources/assets/ecolithica/models/block/frostpetal.json",
+          "src/main/resources/assets/ecolithica/models/item/frostpetal.json"
         ]
       },
       "path": "~/Overworld"
@@ -43,8 +43,8 @@
       "registry_name": "emberblossom",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/ecolithica/block/EmberblossomBlock.java",
           "src/main/resources/assets/ecolithica/models/item/emberblossom.json",
+          "src/main/java/net/mcreator/ecolithica/block/EmberblossomBlock.java",
           "src/main/resources/assets/ecolithica/models/block/emberblossom.json",
           "src/main/resources/assets/ecolithica/blockstates/emberblossom.json"
         ]
@@ -61,9 +61,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/ecolithica/block/SylvanRoseBlock.java",
-          "src/main/resources/assets/ecolithica/blockstates/sylvan_rose.json",
+          "src/main/resources/assets/ecolithica/models/item/sylvan_rose.json",
           "src/main/resources/assets/ecolithica/models/block/sylvan_rose.json",
-          "src/main/resources/assets/ecolithica/models/item/sylvan_rose.json"
+          "src/main/resources/assets/ecolithica/blockstates/sylvan_rose.json"
         ]
       },
       "path": "~/Overworld"
@@ -78,9 +78,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/ecolithica/blockstates/aqualily.json",
+          "src/main/java/net/mcreator/ecolithica/block/AqualilyBlock.java",
           "src/main/resources/assets/ecolithica/models/block/aqualily.json",
-          "src/main/resources/assets/ecolithica/models/item/aqualily.json",
-          "src/main/java/net/mcreator/ecolithica/block/AqualilyBlock.java"
+          "src/main/resources/assets/ecolithica/models/item/aqualily.json"
         ]
       },
       "path": "~/Overworld/mightRemove"
@@ -135,8 +135,8 @@
       "registry_name": "obsidian_forest",
       "metadata": {
         "files": [
-          "src/main/resources/data/ecolithica/worldgen/configured_feature/obsidian_forest_tree.json",
           "src/main/resources/data/ecolithica/worldgen/placed_feature/obsidian_forest_tree.json",
+          "src/main/resources/data/ecolithica/worldgen/configured_feature/obsidian_forest_tree.json",
           "src/main/resources/data/ecolithica/worldgen/biome/obsidian_forest.json"
         ]
       },
@@ -152,12 +152,63 @@
       "metadata": {
         "files": [
           "src/main/resources/data/ecolithica/forge/biome_modifier/obsadionrock_biome_modifier.json",
+          "src/main/resources/data/ecolithica/worldgen/configured_feature/obsadionrock.json",
           "src/main/resources/data/ecolithica/worldgen/placed_feature/obsadionrock.json",
-          "src/main/java/net/mcreator/ecolithica/world/features/ObsadionrockFeature.java",
-          "src/main/resources/data/ecolithica/worldgen/configured_feature/obsadionrock.json"
+          "src/main/java/net/mcreator/ecolithica/world/features/ObsadionrockFeature.java"
         ]
       },
       "path": "~/Nether/biomes/features"
+    },
+    {
+      "name": "Mournvine",
+      "type": "plant",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mournvine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ecolithica/models/item/mournvine.json",
+          "src/main/resources/assets/ecolithica/models/block/mournvine.json",
+          "src/main/java/net/mcreator/ecolithica/block/MournvineBlock.java",
+          "src/main/resources/assets/ecolithica/blockstates/mournvine.json"
+        ]
+      },
+      "path": "~/Overworld"
+    },
+    {
+      "name": "EmberbudCoreopsis",
+      "type": "plant",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberbud_coreopsis",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ecolithica/models/item/emberbud_coreopsis.json",
+          "src/main/java/net/mcreator/ecolithica/block/EmberbudCoreopsisBlock.java",
+          "src/main/resources/assets/ecolithica/models/block/emberbud_coreopsis.json",
+          "src/main/resources/assets/ecolithica/blockstates/emberbud_coreopsis.json"
+        ]
+      },
+      "path": "~/Overworld"
+    },
+    {
+      "name": "GeminiBlossom",
+      "type": "plant",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gemini_blossom",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ecolithica/block/GeminiBlossomBlock.java",
+          "src/main/resources/assets/ecolithica/blockstates/gemini_blossom.json",
+          "src/main/resources/assets/ecolithica/models/item/gemini_blossom.json",
+          "src/main/resources/assets/ecolithica/models/block/gemini_blossom.json"
+        ]
+      },
+      "path": "~/Overworld"
     }
   ],
   "variable_elements": [],
@@ -166,10 +217,13 @@
     "en_us": {
       "block.ecolithica.aqualily": "Aqualily Debug Block",
       "item_group.ecolithica.ecolithica": "Ecolithica",
+      "block.ecolithica.gemini_blossom": "Gemini Blossom",
       "block.ecolithica.sylvan_rose": "Sylvan Rose",
       "block.ecolithica.frostpetal": "Frostpetal",
       "biome.ecolithica.obsidian_forest": "Obsidian Forest",
+      "block.ecolithica.emberbud_coreopsis": "Emberbud Coreopsis",
       "block.ecolithica.lumibloom": "Lumibloom",
+      "block.ecolithica.mournvine": "Mournvine",
       "item.ecolithica.aqualily_item": "Aqualily",
       "block.ecolithica.emberblossom": "Emberblossom"
     }
