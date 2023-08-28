@@ -154,7 +154,44 @@
       },
       {
         "name": "Nether",
-        "children": []
+        "children": [
+          {
+            "name": "blocks and items",
+            "children": [
+              {
+                "name": "code",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "mobs",
+            "children": [
+              {
+                "name": "code",
+                "children": []
+              },
+              {
+                "name": "bosses",
+                "children": [
+                  {
+                    "name": "code",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "structures",
+            "children": [
+              {
+                "name": "code",
+                "children": []
+              }
+            ]
+          }
+        ]
       }
     ]
   },
