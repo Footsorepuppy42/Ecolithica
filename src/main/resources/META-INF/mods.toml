@@ -19,4 +19,10 @@ authors="Robin, MCreator"
 
 
 
+[[dependencies.ecolithica]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 

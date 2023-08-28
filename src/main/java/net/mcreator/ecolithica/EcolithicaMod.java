@@ -13,6 +13,8 @@
  */
 package net.mcreator.ecolithica;
 
+import software.bernie.geckolib.GeckoLib;
+
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -53,6 +55,7 @@ public class EcolithicaMod {
 		EcolithicaModBlocks.REGISTRY.register(bus);
 		EcolithicaModItems.REGISTRY.register(bus);
 
+		GeckoLib.initialize();
 	}
 
 	private static final String PROTOCOL_VERSION = "1";
