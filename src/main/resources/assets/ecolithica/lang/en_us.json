@@ -1,19 +1,10 @@
 {
+  "block.ecolithica.aqualily": "Aqualily Debug Block",
+  "item_group.ecolithica.ecolithica": "Ecolithica",
   "block.ecolithica.sylvan_rose": "Sylvan Rose",
   "block.ecolithica.frostpetal": "Frostpetal",
   "biome.ecolithica.obsidian_forest": "Obsidian Forest",
-  "block.ecolithica.shade_wood": "Shade Wood",
-  "item.ecolithica.aqualily_item": "Aqualily",
-  "block.ecolithica.shade_pressure_plate": "Shade Pressure Plate",
-  "block.ecolithica.emberblossom": "Emberblossom",
-  "block.ecolithica.shade_stairs": "Shade Stairs",
-  "block.ecolithica.aqualily": "Aqualily Debug Block",
-  "item_group.ecolithica.ecolithica": "Ecolithica",
-  "block.ecolithica.shade_planks": "Shade Planks",
-  "block.ecolithica.shade_button": "Shade Button",
-  "block.ecolithica.shade_fence_gate": "Shade Fence Gate",
-  "block.ecolithica.shade_fence": "Shade Fence",
   "block.ecolithica.lumibloom": "Lumibloom",
-  "block.ecolithica.shade_log": "Shade Log",
-  "block.ecolithica.shade_slab": "Shade Slab"
+  "item.ecolithica.aqualily_item": "Aqualily",
+  "block.ecolithica.emberblossom": "Emberblossom"
 }

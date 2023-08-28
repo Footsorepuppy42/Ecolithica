@@ -24,6 +24,9 @@ public class EcolithicaModTabs {
 		}
 
 		if (tabData.getTab() == CreativeModeTabs.NATURAL_BLOCKS) {
+			tabData.accept(EcolithicaModBlocks.MOURNVINE.get().asItem());
+			tabData.accept(EcolithicaModBlocks.EMBERBUD_COREOPSIS.get().asItem());
+			tabData.accept(EcolithicaModBlocks.GEMINI_BLOSSOM.get().asItem());
 			tabData.accept(EcolithicaModBlocks.SHADE_FENCE.get().asItem());
 		}
 	}
