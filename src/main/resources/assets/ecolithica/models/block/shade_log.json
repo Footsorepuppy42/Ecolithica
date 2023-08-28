@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ecolithica:block/obsidian_log_top",
+    "up": "ecolithica:block/obsidian_log_top",
+    "north": "ecolithica:block/obsadion_log",
+    "east": "ecolithica:block/obsadion_log",
+    "south": "ecolithica:block/obsadion_log",
+    "west": "ecolithica:block/obsadion_log",
+    "particle": "ecolithica:block/obsidian_log_top"
+  },
+  "render_type": "solid"
+}

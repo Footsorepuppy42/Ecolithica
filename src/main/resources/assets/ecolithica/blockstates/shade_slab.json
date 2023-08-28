@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ecolithica:block/shade_slab"
+    },
+    "type=top": {
+      "model": "ecolithica:block/shade_slab_top"
+    },
+    "type=double": {
+      "model": "ecolithica:block/shade_slab_full"
+    }
+  }
+}

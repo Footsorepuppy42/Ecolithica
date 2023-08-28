@@ -1,0 +1,7 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "texture": "ecolithica:block/shade_planks"
+  },
+  "render_type": "solid"
+}

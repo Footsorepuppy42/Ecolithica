@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_fence",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "ecolithica:shade_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "ecolithica:shade_planks"
+    },
+    "3": {
+      "item": "ecolithica:shade_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "ecolithica:shade_planks"
+    }
+  },
+  "result": {
+    "item": "ecolithica:shade_fence",
+    "count": 3
+  }
+}

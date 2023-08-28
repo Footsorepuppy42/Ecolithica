@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "ecolithica:shade_planks"
+    }
+  ],
+  "result": {
+    "item": "ecolithica:shade_button",
+    "count": 1
+  }
+}

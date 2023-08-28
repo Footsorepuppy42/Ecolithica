@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "ecolithica:block/shade_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "ecolithica:block/shade_log"
+    },
+    "axis=z": {
+      "model": "ecolithica:block/shade_log",
+      "x": 90
+    }
+  }
+}

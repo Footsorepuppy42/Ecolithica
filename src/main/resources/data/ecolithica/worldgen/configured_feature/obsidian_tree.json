@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:huge_fungus",
+  "config": {
+    "valid_base_block": {
+      "Name": "minecraft:blackstone"
+    },
+    "stem_state": {
+      "Name": "minecraft:obsidian"
+    },
+    "hat_state": {
+      "Name": "minecraft:obsidian"
+    },
+    "decor_state": {
+      "Name": "minecraft:crying_obsidian"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "ecolithica:block/shade_planks",
+    "top": "ecolithica:block/shade_planks",
+    "side": "ecolithica:block/shade_planks"
+  },
+  "render_type": "solid"
+}

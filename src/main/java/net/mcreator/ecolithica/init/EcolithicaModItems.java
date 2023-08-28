@@ -23,6 +23,15 @@ public class EcolithicaModItems {
 	public static final RegistryObject<Item> SYLVAN_ROSE = block(EcolithicaModBlocks.SYLVAN_ROSE);
 	public static final RegistryObject<Item> AQUALILY = block(EcolithicaModBlocks.AQUALILY);
 	public static final RegistryObject<Item> AQUALILY_ITEM = REGISTRY.register("aqualily_item", () -> new AqualilyItemItem());
+	public static final RegistryObject<Item> SHADE_WOOD = block(EcolithicaModBlocks.SHADE_WOOD);
+	public static final RegistryObject<Item> SHADE_LOG = block(EcolithicaModBlocks.SHADE_LOG);
+	public static final RegistryObject<Item> SHADE_PLANKS = block(EcolithicaModBlocks.SHADE_PLANKS);
+	public static final RegistryObject<Item> SHADE_STAIRS = block(EcolithicaModBlocks.SHADE_STAIRS);
+	public static final RegistryObject<Item> SHADE_SLAB = block(EcolithicaModBlocks.SHADE_SLAB);
+	public static final RegistryObject<Item> SHADE_FENCE = block(EcolithicaModBlocks.SHADE_FENCE);
+	public static final RegistryObject<Item> SHADE_FENCE_GATE = block(EcolithicaModBlocks.SHADE_FENCE_GATE);
+	public static final RegistryObject<Item> SHADE_PRESSURE_PLATE = block(EcolithicaModBlocks.SHADE_PRESSURE_PLATE);
+	public static final RegistryObject<Item> SHADE_BUTTON = block(EcolithicaModBlocks.SHADE_BUTTON);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

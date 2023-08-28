@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_slab",
+  "category": "building",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "ecolithica:shade_planks"
+    },
+    "1": {
+      "item": "ecolithica:shade_planks"
+    },
+    "2": {
+      "item": "ecolithica:shade_planks"
+    }
+  },
+  "result": {
+    "item": "ecolithica:shade_slab",
+    "count": 6
+  }
+}

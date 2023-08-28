@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "category": "building",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "ecolithica:shade_log"
+    },
+    "1": {
+      "item": "ecolithica:shade_log"
+    },
+    "2": {
+      "item": "ecolithica:shade_log"
+    },
+    "3": {
+      "item": "ecolithica:shade_log"
+    }
+  },
+  "result": {
+    "item": "ecolithica:shade_wood",
+    "count": 3
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "feature": "ecolithica:obsidian_tree",
+  "placement": [
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:carving_mask",
+      "step": "air"
+    }
+  ]
+}
