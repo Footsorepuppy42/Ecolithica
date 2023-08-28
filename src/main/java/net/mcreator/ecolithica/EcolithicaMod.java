@@ -32,6 +32,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.ecolithica.init.EcolithicaModItems;
+import net.mcreator.ecolithica.init.EcolithicaModFeatures;
 import net.mcreator.ecolithica.init.EcolithicaModBlocks;
 
 import java.util.function.Supplier;
@@ -54,6 +55,8 @@ public class EcolithicaMod {
 
 		EcolithicaModBlocks.REGISTRY.register(bus);
 		EcolithicaModItems.REGISTRY.register(bus);
+
+		EcolithicaModFeatures.REGISTRY.register(bus);
 
 		GeckoLib.initialize();
 	}

@@ -9,8 +9,8 @@
       "registry_name": "lumibloom",
       "metadata": {
         "files": [
-          "src/main/resources/assets/ecolithica/models/item/lumibloom.json",
           "src/main/resources/assets/ecolithica/models/block/lumibloom.json",
+          "src/main/resources/assets/ecolithica/models/item/lumibloom.json",
           "src/main/resources/assets/ecolithica/blockstates/lumibloom.json",
           "src/main/java/net/mcreator/ecolithica/block/LumibloomBlock.java"
         ]
@@ -26,10 +26,10 @@
       "registry_name": "frostpetal",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/ecolithica/block/FrostpetalBlock.java",
-          "src/main/resources/assets/ecolithica/blockstates/frostpetal.json",
           "src/main/resources/assets/ecolithica/models/block/frostpetal.json",
-          "src/main/resources/assets/ecolithica/models/item/frostpetal.json"
+          "src/main/resources/assets/ecolithica/blockstates/frostpetal.json",
+          "src/main/resources/assets/ecolithica/models/item/frostpetal.json",
+          "src/main/java/net/mcreator/ecolithica/block/FrostpetalBlock.java"
         ]
       },
       "path": "~/Overworld"
@@ -43,8 +43,8 @@
       "registry_name": "emberblossom",
       "metadata": {
         "files": [
-          "src/main/resources/assets/ecolithica/models/item/emberblossom.json",
           "src/main/java/net/mcreator/ecolithica/block/EmberblossomBlock.java",
+          "src/main/resources/assets/ecolithica/models/item/emberblossom.json",
           "src/main/resources/assets/ecolithica/models/block/emberblossom.json",
           "src/main/resources/assets/ecolithica/blockstates/emberblossom.json"
         ]
@@ -61,9 +61,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/ecolithica/block/SylvanRoseBlock.java",
-          "src/main/resources/assets/ecolithica/models/item/sylvan_rose.json",
+          "src/main/resources/assets/ecolithica/blockstates/sylvan_rose.json",
           "src/main/resources/assets/ecolithica/models/block/sylvan_rose.json",
-          "src/main/resources/assets/ecolithica/blockstates/sylvan_rose.json"
+          "src/main/resources/assets/ecolithica/models/item/sylvan_rose.json"
         ]
       },
       "path": "~/Overworld"
@@ -78,9 +78,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/ecolithica/blockstates/aqualily.json",
-          "src/main/java/net/mcreator/ecolithica/block/AqualilyBlock.java",
           "src/main/resources/assets/ecolithica/models/block/aqualily.json",
-          "src/main/resources/assets/ecolithica/models/item/aqualily.json"
+          "src/main/resources/assets/ecolithica/models/item/aqualily.json",
+          "src/main/java/net/mcreator/ecolithica/block/AqualilyBlock.java"
         ]
       },
       "path": "~/Overworld/mightRemove"
@@ -125,6 +125,39 @@
         ]
       },
       "path": "~/Overworld/mightRemove"
+    },
+    {
+      "name": "ObsidianForest",
+      "type": "biome",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_forest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ecolithica/worldgen/configured_feature/obsidian_forest_tree.json",
+          "src/main/resources/data/ecolithica/worldgen/placed_feature/obsidian_forest_tree.json",
+          "src/main/resources/data/ecolithica/worldgen/biome/obsidian_forest.json"
+        ]
+      },
+      "path": "~/Nether/biomes"
+    },
+    {
+      "name": "Obsadionrock",
+      "type": "feature",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsadionrock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ecolithica/forge/biome_modifier/obsadionrock_biome_modifier.json",
+          "src/main/resources/data/ecolithica/worldgen/placed_feature/obsadionrock.json",
+          "src/main/java/net/mcreator/ecolithica/world/features/ObsadionrockFeature.java",
+          "src/main/resources/data/ecolithica/worldgen/configured_feature/obsadionrock.json"
+        ]
+      },
+      "path": "~/Nether/biomes/fetures"
     }
   ],
   "variable_elements": [],
@@ -135,6 +168,7 @@
       "item_group.ecolithica.ecolithica": "Ecolithica",
       "block.ecolithica.sylvan_rose": "Sylvan Rose",
       "block.ecolithica.frostpetal": "Frostpetal",
+      "biome.ecolithica.obsidian_forest": "Obsidian Forest",
       "block.ecolithica.lumibloom": "Lumibloom",
       "item.ecolithica.aqualily_item": "Aqualily",
       "block.ecolithica.emberblossom": "Emberblossom"
@@ -193,7 +227,16 @@
           },
           {
             "name": "biomes",
-            "children": []
+            "children": [
+              {
+                "name": "code",
+                "children": []
+              },
+              {
+                "name": "fetures",
+                "children": []
+              }
+            ]
           }
         ]
       }

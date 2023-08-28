@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "ecolithica:obsidian_forest",
+  "features": "ecolithica:obsadionrock",
+  "step": "underground_decoration"
+}

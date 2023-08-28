@@ -1,0 +1,59 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "effects": {
+    "particle": {
+      "options": {
+        "type": "ash"
+      },
+      "probability": 0.005
+    },
+    "foliage_color": -16119540,
+    "grass_color": -16119540,
+    "sky_color": -16054768,
+    "fog_color": -16054768,
+    "water_color": -5331530,
+    "water_fog_color": -5331530
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "piglin",
+        "weight": 15,
+        "minCount": 4,
+        "maxCount": 6
+      },
+      {
+        "type": "magma_cube",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "ecolithica:obsidian_forest_tree"
+    ],
+    []
+  ]
+}
