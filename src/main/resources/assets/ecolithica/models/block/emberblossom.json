@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "ecolithica:block/emberblossom",
+    "particle": "ecolithica:block/emberblossom"
+  },
+  "render_type": "cutout"
+}

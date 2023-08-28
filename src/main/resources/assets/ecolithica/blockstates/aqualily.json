@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ecolithica:block/aqualily"
+    },
+    "facing=east": {
+      "model": "ecolithica:block/aqualily",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ecolithica:block/aqualily",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ecolithica:block/aqualily",
+      "y": 270
+    }
+  }
+}

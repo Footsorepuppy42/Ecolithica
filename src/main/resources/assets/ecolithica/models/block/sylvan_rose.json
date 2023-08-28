@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "ecolithica:block/sylvan_rose",
+    "particle": "ecolithica:block/sylvan_rose"
+  },
+  "render_type": "cutout"
+}

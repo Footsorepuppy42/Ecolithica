@@ -1,0 +1,179 @@
+{
+  "mod_elements": [
+    {
+      "name": "Lumibloom",
+      "type": "plant",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lumibloom",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ecolithica/models/item/lumibloom.json",
+          "src/main/resources/assets/ecolithica/models/block/lumibloom.json",
+          "src/main/resources/assets/ecolithica/blockstates/lumibloom.json",
+          "src/main/java/net/mcreator/ecolithica/block/LumibloomBlock.java"
+        ]
+      },
+      "path": "~/Overworld"
+    },
+    {
+      "name": "Frostpetal",
+      "type": "plant",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frostpetal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ecolithica/block/FrostpetalBlock.java",
+          "src/main/resources/assets/ecolithica/blockstates/frostpetal.json",
+          "src/main/resources/assets/ecolithica/models/block/frostpetal.json",
+          "src/main/resources/assets/ecolithica/models/item/frostpetal.json"
+        ]
+      },
+      "path": "~/Overworld"
+    },
+    {
+      "name": "Emberblossom",
+      "type": "plant",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberblossom",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ecolithica/models/item/emberblossom.json",
+          "src/main/java/net/mcreator/ecolithica/block/EmberblossomBlock.java",
+          "src/main/resources/assets/ecolithica/models/block/emberblossom.json",
+          "src/main/resources/assets/ecolithica/blockstates/emberblossom.json"
+        ]
+      },
+      "path": "~/Overworld"
+    },
+    {
+      "name": "SylvanRose",
+      "type": "plant",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sylvan_rose",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ecolithica/block/SylvanRoseBlock.java",
+          "src/main/resources/assets/ecolithica/models/item/sylvan_rose.json",
+          "src/main/resources/assets/ecolithica/models/block/sylvan_rose.json",
+          "src/main/resources/assets/ecolithica/blockstates/sylvan_rose.json"
+        ]
+      },
+      "path": "~/Overworld"
+    },
+    {
+      "name": "Aqualily",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aqualily",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ecolithica/blockstates/aqualily.json",
+          "src/main/java/net/mcreator/ecolithica/block/AqualilyBlock.java",
+          "src/main/resources/assets/ecolithica/models/block/aqualily.json",
+          "src/main/resources/assets/ecolithica/models/item/aqualily.json"
+        ]
+      },
+      "path": "~/Overworld/mightRemove"
+    },
+    {
+      "name": "Ecolithica",
+      "type": "tab",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ecolithica",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Overworld"
+    },
+    {
+      "name": "AqualilyLootTable",
+      "type": "loottable",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aqualily_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ecolithica/loot_tables/blocks/aqualily.json"
+        ]
+      },
+      "path": "~/Overworld/mightRemove"
+    },
+    {
+      "name": "AqualilyItem",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aqualily_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ecolithica/item/AqualilyItemItem.java",
+          "src/main/resources/assets/ecolithica/models/item/aqualily_item.json"
+        ]
+      },
+      "path": "~/Overworld/mightRemove"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.ecolithica.aqualily": "Aqualily Debug Block",
+      "item_group.ecolithica.ecolithica": "Ecolithica",
+      "block.ecolithica.sylvan_rose": "Sylvan Rose",
+      "block.ecolithica.frostpetal": "Frostpetal",
+      "block.ecolithica.lumibloom": "Lumibloom",
+      "item.ecolithica.aqualily_item": "Aqualily",
+      "block.ecolithica.emberblossom": "Emberblossom"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Overworld",
+        "children": [
+          {
+            "name": "mightRemove",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Nether",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "ecolithica",
+    "modName": "Ecolithica",
+    "version": "1.0.0",
+    "author": "Robin, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.4",
+    "modElementsPackage": "net.mcreator.ecolithica",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}

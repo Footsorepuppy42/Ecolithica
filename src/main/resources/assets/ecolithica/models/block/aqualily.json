@@ -1,0 +1,9 @@
+{
+  "parent": "ecolithica:custom/aqualily",
+  "textures": {
+    "all": "ecolithica:block/aqualily",
+    "particle": "ecolithica:block/aqualily",
+    "0": "ecolithica:block/aqualily"
+  },
+  "render_type": "cutout"
+}
