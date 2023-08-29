@@ -7,10 +7,15 @@ package net.mcreator.ecolithica.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.client.event.RegisterColorHandlersEvent;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.ecolithica.block.SylvanRoseBlock;
+import net.mcreator.ecolithica.block.ShortGrassBlock;
 import net.mcreator.ecolithica.block.ShadeWoodBlock;
 import net.mcreator.ecolithica.block.ShadeStairsBlock;
 import net.mcreator.ecolithica.block.ShadeSlabBlock;
@@ -32,6 +37,7 @@ import net.mcreator.ecolithica.EcolithicaMod;
 public class EcolithicaModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, EcolithicaMod.MODID);
 	public static final RegistryObject<Block> FROSTPETAL = REGISTRY.register("frostpetal", () -> new FrostpetalBlock());
+	public static final RegistryObject<Block> SHORT_GRASS = REGISTRY.register("short_grass", () -> new ShortGrassBlock());
 	public static final RegistryObject<Block> LUMIBLOOM = REGISTRY.register("lumibloom", () -> new LumibloomBlock());
 	public static final RegistryObject<Block> EMBERBLOSSOM = REGISTRY.register("emberblossom", () -> new EmberblossomBlock());
 	public static final RegistryObject<Block> SYLVAN_ROSE = REGISTRY.register("sylvan_rose", () -> new SylvanRoseBlock());
@@ -48,4 +54,17 @@ public class EcolithicaModBlocks {
 	public static final RegistryObject<Block> SHADE_FENCE_GATE = REGISTRY.register("shade_fence_gate", () -> new ShadeFenceGateBlock());
 	public static final RegistryObject<Block> SHADE_PRESSURE_PLATE = REGISTRY.register("shade_pressure_plate", () -> new ShadePressurePlateBlock());
 	public static final RegistryObject<Block> SHADE_BUTTON = REGISTRY.register("shade_button", () -> new ShadeButtonBlock());
+
+	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+	public static class ClientSideHandler {
+		@SubscribeEvent
+		public static void blockColorLoad(RegisterColorHandlersEvent.Block event) {
+			ShortGrassBlock.blockColorLoad(event);
+		}
+
+		@SubscribeEvent
+		public static void itemColorLoad(RegisterColorHandlersEvent.Item event) {
+			ShortGrassBlock.itemColorLoad(event);
+		}
+	}
 }

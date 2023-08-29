@@ -2,14 +2,14 @@
   "_fv": 43,
   "_type": "plant",
   "definition": {
-    "renderType": 12,
-    "texture": "mournvine",
+    "renderType": 120,
+    "texture": "short_grass",
     "textureBottom": "",
     "customModelName": "Cross model",
     "itemTexture": "",
     "particleTexture": "",
-    "tintType": "No tint",
-    "isItemTinted": false,
+    "tintType": "Grass",
+    "isItemTinted": true,
     "plantType": "normal",
     "staticPlantGenerationType": "Flower",
     "suspiciousStewEffect": "SPEED",
@@ -30,7 +30,7 @@
         "subtract": false
       }
     ],
-    "name": "Mournvine",
+    "name": "Short Grass",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:Ecolithica"
@@ -59,7 +59,7 @@
     "fallSound": {
       "value": ""
     },
-    "useLootTableForDrops": false,
+    "useLootTableForDrops": true,
     "customDrop": {
       "value": ""
     },
@@ -67,7 +67,7 @@
     "forceTicking": false,
     "emissiveRendering": false,
     "hasTileEntity": false,
-    "isReplaceable": false,
+    "isReplaceable": true,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""
@@ -81,7 +81,9 @@
     "canBePlacedOn": [],
     "isBonemealable": false,
     "frequencyOnChunks": 5,
-    "spawnWorldTypes": [],
+    "spawnWorldTypes": [
+      "Surface"
+    ],
     "restrictionBiomes": [],
     "patchSize": 64,
     "generateAtAnyHeight": false

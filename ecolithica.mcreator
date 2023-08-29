@@ -544,6 +544,41 @@
         ]
       },
       "path": "~/Nether/biomes/fetures"
+    },
+    {
+      "name": "ShortGrassDrop",
+      "type": "loottable",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "short_grass_drop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ecolithica/loot_tables/blocks/short_grass.json"
+        ]
+      },
+      "path": "~/Overworld"
+    },
+    {
+      "name": "ShortGrass",
+      "type": "plant",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "short_grass",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ecolithica/worldgen/placed_feature/short_grass.json",
+          "src/main/resources/assets/ecolithica/models/block/short_grass.json",
+          "src/main/resources/data/ecolithica/worldgen/configured_feature/short_grass.json",
+          "src/main/resources/assets/ecolithica/blockstates/short_grass.json",
+          "src/main/java/net/mcreator/ecolithica/block/ShortGrassBlock.java",
+          "src/main/java/net/mcreator/ecolithica/world/features/plants/ShortGrassFeature.java",
+          "src/main/resources/data/ecolithica/forge/biome_modifier/short_grass_biome_modifier.json",
+          "src/main/resources/assets/ecolithica/models/item/short_grass.json"
+        ]
+      },
+      "path": "~/Overworld"
     }
   ],
   "variable_elements": [],
@@ -576,45 +611,31 @@
     "name": "~",
     "children": [
       {
-        "name": "Overworld",
-        "children": [
-          {
-            "name": "mightRemove",
-            "children": []
-          }
-        ]
-      },
-      {
         "name": "Nether",
         "children": [
           {
             "name": "blocks and items",
             "children": [
               {
-                "name": "code",
+                "name": "craft",
                 "children": []
               },
               {
-                "name": "craft",
+                "name": "code",
                 "children": []
               }
             ]
           },
           {
-            "name": "mobs",
+            "name": "biomes",
             "children": [
               {
-                "name": "code",
+                "name": "fetures",
                 "children": []
               },
               {
-                "name": "bosses",
-                "children": [
-                  {
-                    "name": "code",
-                    "children": []
-                  }
-                ]
+                "name": "code",
+                "children": []
               }
             ]
           },
@@ -628,17 +649,31 @@
             ]
           },
           {
-            "name": "biomes",
+            "name": "mobs",
             "children": [
+              {
+                "name": "bosses",
+                "children": [
+                  {
+                    "name": "code",
+                    "children": []
+                  }
+                ]
+              },
               {
                 "name": "code",
                 "children": []
-              },
-              {
-                "name": "fetures",
-                "children": []
               }
             ]
+          }
+        ]
+      },
+      {
+        "name": "Overworld",
+        "children": [
+          {
+            "name": "mightRemove",
+            "children": []
           }
         ]
       }

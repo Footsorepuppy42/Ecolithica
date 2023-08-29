@@ -18,6 +18,7 @@ import net.mcreator.ecolithica.EcolithicaMod;
 public class EcolithicaModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, EcolithicaMod.MODID);
 	public static final RegistryObject<Item> FROSTPETAL = block(EcolithicaModBlocks.FROSTPETAL);
+	public static final RegistryObject<Item> SHORT_GRASS = block(EcolithicaModBlocks.SHORT_GRASS);
 	public static final RegistryObject<Item> LUMIBLOOM = block(EcolithicaModBlocks.LUMIBLOOM);
 	public static final RegistryObject<Item> EMBERBLOSSOM = block(EcolithicaModBlocks.EMBERBLOSSOM);
 	public static final RegistryObject<Item> SYLVAN_ROSE = block(EcolithicaModBlocks.SYLVAN_ROSE);
