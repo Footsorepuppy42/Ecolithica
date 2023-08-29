@@ -11,11 +11,13 @@ import net.minecraftforge.fml.common.Mod;
 
 import net.minecraft.world.level.levelgen.feature.Feature;
 
+import net.mcreator.ecolithica.world.features.plants.ShortGrassFeature;
 import net.mcreator.ecolithica.world.features.ObsadionrockFeature;
 import net.mcreator.ecolithica.EcolithicaMod;
 
 @Mod.EventBusSubscriber
 public class EcolithicaModFeatures {
 	public static final DeferredRegister<Feature<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.FEATURES, EcolithicaMod.MODID);
+	public static final RegistryObject<Feature<?>> SHORT_GRASS = REGISTRY.register("short_grass", ShortGrassFeature::new);
 	public static final RegistryObject<Feature<?>> OBSADIONROCK = REGISTRY.register("obsadionrock", ObsadionrockFeature::new);
 }

@@ -32,15 +32,16 @@ public class EcolithicaModTabs {
 	public static void buildTabContentsModded(CreativeModeTabEvent.Register event) {
 		event.registerCreativeModeTab(new ResourceLocation("ecolithica", "ecolithica"),
 				builder -> builder.title(Component.translatable("item_group.ecolithica.ecolithica")).icon(() -> new ItemStack(EcolithicaModBlocks.FROSTPETAL.get())).displayItems((parameters, tabData) -> {
+					tabData.accept(EcolithicaModBlocks.SHORT_GRASS.get().asItem());
 					tabData.accept(EcolithicaModBlocks.FROSTPETAL.get().asItem());
 					tabData.accept(EcolithicaModBlocks.LUMIBLOOM.get().asItem());
 					tabData.accept(EcolithicaModBlocks.EMBERBLOSSOM.get().asItem());
 					tabData.accept(EcolithicaModBlocks.SYLVAN_ROSE.get().asItem());
 					tabData.accept(EcolithicaModBlocks.MOURNVINE.get().asItem());
-					tabData.accept(EcolithicaModBlocks.SHADE_WOOD.get().asItem());
 					tabData.accept(EcolithicaModBlocks.EMBERBUD_COREOPSIS.get().asItem());
-					tabData.accept(EcolithicaModBlocks.SHADE_LOG.get().asItem());
 					tabData.accept(EcolithicaModBlocks.GEMINI_BLOSSOM.get().asItem());
+					tabData.accept(EcolithicaModBlocks.SHADE_WOOD.get().asItem());
+					tabData.accept(EcolithicaModBlocks.SHADE_LOG.get().asItem());
 					tabData.accept(EcolithicaModBlocks.SHADE_PLANKS.get().asItem());
 					tabData.accept(EcolithicaModBlocks.SHADE_STAIRS.get().asItem());
 					tabData.accept(EcolithicaModBlocks.SHADE_SLAB.get().asItem());
