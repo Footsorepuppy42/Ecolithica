@@ -5,7 +5,10 @@
       "Name": "minecraft:blackstone"
     },
     "stem_state": {
-      "Name": "minecraft:obsidian"
+      "Name": "ecolithica:shade_log",
+      "Properties": {
+        "axis": "y"
+      }
     },
     "hat_state": {
       "Name": "minecraft:obsidian"

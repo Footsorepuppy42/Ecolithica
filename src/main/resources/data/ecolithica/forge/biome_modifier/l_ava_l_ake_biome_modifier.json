@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "ecolithica:obsidian_forest",
+  "features": "ecolithica:l_ava_l_ake",
+  "step": "surface_structures"
+}
