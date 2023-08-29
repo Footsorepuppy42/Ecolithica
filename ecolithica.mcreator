@@ -135,6 +135,8 @@
       "registry_name": "obsidian_forest",
       "metadata": {
         "files": [
+          "src/main/resources/data/ecolithica/worldgen/configured_feature/obsidian_forest_tree.json",
+          "src/main/resources/data/ecolithica/worldgen/placed_feature/obsidian_forest_tree.json",
           "src/main/resources/data/ecolithica/worldgen/biome/obsidian_forest.json"
         ]
       },
@@ -590,6 +592,7 @@
       "block.ecolithica.frostpetal": "Frostpetal",
       "biome.ecolithica.obsidian_forest": "Obsidian Forest",
       "block.ecolithica.emberbud_coreopsis": "Emberbud Coreopsis",
+      "block.ecolithica.short_grass": "Short Grass",
       "block.ecolithica.shade_wood": "Shade Wood",
       "item.ecolithica.aqualily_item": "Aqualily",
       "block.ecolithica.shade_pressure_plate": "Shade Pressure Plate",

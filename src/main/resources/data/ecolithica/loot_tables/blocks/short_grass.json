@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "ecolithica:deleted_mod_element",
+          "name": "ecolithica:short_grass",
           "weight": 1,
           "conditions": [
             {
